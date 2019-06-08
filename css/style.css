@@ -76,7 +76,8 @@ body{
 
 
 .myne{
-	text-align: center
+	text-align: center;
+	background-image: url("../images/c.jpg");
 }
 
 .lo{
