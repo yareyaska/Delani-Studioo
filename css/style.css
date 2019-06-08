@@ -71,13 +71,25 @@ body{
 }
 
 .portfolio{
-	text-align: center
+	text-align: center;
+	overflow: hidden;
+	margin: auto;
+	width: 80%;
 }
 
 
 .myne{
 	text-align: center;
 	background-image: url("../images/c.jpg");
+	color: white;
+	overflow: hidden;
+	margin: auto;
+	width: 80%;
+}
+
+.myicons{
+	padding-left: 50px;
+	padding-top: 50px;
 }
 
 .lo{
