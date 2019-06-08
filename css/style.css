@@ -57,6 +57,19 @@ body{
   display: none;
 }
 
+#showing2 {
+  display: none;
+}
+
+
+#showing3 {
+  display: none;
+}
+
+.pics{
+	text-align: center;
+}
+
 
 .lo{
 	text-align: center;
