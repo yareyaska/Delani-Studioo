@@ -9,10 +9,12 @@ $(document).ready(function() {
 		$("#hidden2").slideToggle();
 	});
 
+
 	$(".clickable3").click(function() {
 		$("#showing3").slideToggle();
 		$("#hidden3").slideToggle();
 	});
+
 	$(".over").hover(function() {
 		$(this).animate({
 			opacity: '1'
@@ -23,8 +25,11 @@ $(document).ready(function() {
 			opacity : '0'
 		});
 	});
+
+
+
 	$("#submit").click(function(event){
-		var name = $("#fname").val();
+		var name = $("#name1").val();
 		if(name != ""){
 			alert(name + "thanks for sending a message.")
 
