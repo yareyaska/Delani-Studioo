@@ -15,7 +15,7 @@ $(document).ready(function() {
 		$("#hidden3").slideToggle();
 	});
 
-	$(".over").hover(function() {
+	$(".hov").hover(function() {
 		$(this).animate({
 			opacity: '1'
 		});

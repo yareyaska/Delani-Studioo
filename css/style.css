@@ -54,16 +54,16 @@ body{
 
 
 #showing {
-  display: none;
+	display: none;
 }
 
 #showing2 {
-  display: none;
+	display: none;
 }
 
 
 #showing3 {
-  display: none;
+	display: none;
 }
 
 .pics{
@@ -72,9 +72,6 @@ body{
 
 .portfolio{
 	text-align: center;
-	overflow: hidden;
-	margin: auto;
-	width: 80%;
 }
 
 
@@ -106,6 +103,18 @@ body{
 
 .kk:hover{
 
- background-color: #f4f4f4;
+	background-color: #f4f4f4;
 
+}
+
+
+
+
+.hov{
+	position: absolute;
+	margin-top: -92%;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 100%;
+	width: 91%;
 }
